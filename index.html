@@ -1,90 +1,82 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="ie-edge"/>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="assets/css/style.css"/>
-		<title>B O O T S T R A P   P A N D A S</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower|Love+Ya+Like+A+Sister"/>
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+		<title>F L E X B O X   P A N D A S</title>
 	</head>
 	<body>
+		<header>
+			<nav class="row">
+				<ul class="col-xs-8 col-md-12 nav nav-pills pull-right">
+					<li role="presentation" ><a href="#">Inicio</a></li>
+					<li role="presentation" ><a href="#">Pandas</a></li>
+					<li role="presentation" ><a href="#">Historia</a></li>
+					<li role="presentation" ><a href="#">Extinción</a></li>
+			</nav>
+		</header>
 		<section class="container">
-			<header>
-				<nav class="container color-navBar">
-					<div class="row">
-						<ul class="col-md-6 nav nav-pills pull-right">
-							<li role="presentation" ><a href="#">Inicio</a></li>
-							<li role="presentation" ><a href="#">Pandas</a></li>
-							<li role="presentation"><a href="#">Historia</a></li>
-							<li role="presentation"><a href="#">Extinción</a></li>
-						</ul>
-						<div class="col-md-6">
-							<img class="img" src="assets/img/panda-logo.png" alt="logoPanda">
-					</div>
-				</nav>
-			</header>
-			<section class="container">
-				<div class="row">
-					<div class="col-xs-6 col-md-3">
-						<span class="img-rounded">
-							x
-							<img alt="panda01" class="panda" src="assets/img/panda1.jpg">
-						</span>
-					</div>
-					<div class="col-xs-6 col-md-3">
-						<span class="img-rounded">
-							x
-							<img alt="panda02" class="panda" src="assets/img/panda2.jpg">
-						</span>
-					</div>
-					<div class="col-xs-6 col-md-3">
-						<span class="img-rounded">
-							x
-							<img alt="panda03" class="panda" src="assets/img/panda3.jpg">
-						</span>
-					</div>
-					<div class="col-xs-6 col-md-3">
-						<span class="img-rounded">
-							x
-							<img alt="panda04" class="panda" src="assets/img/panda4.jpg">
-						</span>
-					</div>
+			<div class="row">
+				<div class="col-xs-6 col-md-3 cerrar">
+					<img alt="panda01" src="assets/img/panda1.jpg">
+					<span class=" imagen panda1">
+						x 
+					</span>
 				</div>
-			</section>
-			<section class="container">
-				<div class="row">
-					<div class="col-xs-4 col-md-3 col-md-offset-1">
-						<button type="submit" id="origen">Origen</button>
-					</div>
-					<div class="col-xs-4 col-md-3 col-md-offset-1">
-						<button type="submit" id="extincion">Extinción</button>
-					</div> 
-					<div class="col-xs-4 col-md-3 col-md-offset-1">
-						<button type="submit" id="restaurar">Restaurar Fotos</button>
-					</div>
+				<div class="col-xs-6 col-md-3 cerrar">
+					<img alt="panda02" src="assets/img/panda2.jpg">
+					<span class=" imagen panda2">
+						x 
+					</span>
 				</div>
-			</section> 
-			<section class="container">
-				<div class="row">
-					<div class="col-xs-6 col-md-6">
-						<p id="lorem1" class="lorem">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br><br> Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-						</p>
-					</div>
-					<div class="col-xs-6 col-md-6">
-						<p id="lorem2" class="lorem">
-							Lorem ipsum dolor sit amet, consectetuer  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br><br> Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-						</p>
-					</div>
+				<div class="col-xs-6 col-md-3 cerrar">
+					<img alt="panda03" src="assets/img/panda3.jpg">
+					<span class="imagen panda3">
+						x 
+					</span>
 				</div>
-			</section>
-			<footer class="panel-footer">
+				<div class="col-xs-6 col-md-3 cerrar">
+					<img class="imagen" alt="panda04" src="assets/img/panda4.jpg">
+					<span>
+						x 
+					</span>
+				</div>
+			</div>
+		</section>
+		<section class="container">
+			<div class="row">
+			<div class="col-xs-6 col-md-8 col-md-offset-3">
+				<button class="btn" type="submit" id="origen">Origen</button>
+				<button class="btn" type="submit" id="extincion">Extinción</button>
+				<button class="btn" type="submit" id="restaurar">Restaurar Fotos</button>
+			</div>
+			</div>
+		</section> 
+		<section class="container">
+			<div class="row">
+				<div class="col-xs-6 col-md-6">
+					<p id="lorem1" class="lorem">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br><br> Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+					</p>
+				</div>
+				<div class="col-xs-6 col-md-6">
+					<p id="lorem2" class="lorem col-md-6">
+						Lorem ipsum dolor sit amet, consectetuer  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <br><br> Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+					</p>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
 				<p>
 					 Powered by <a href="https://github.com/Nallelyht">@nallelyht</a>
 				</p>
 			</footer>
-		</section>
 		<script type="text/javascript" src="assets/js/app.js"></script>
 	</body>
 </html>

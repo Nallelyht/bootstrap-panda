@@ -1,17 +1,87 @@
-.color-navBar{
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #666633;
+	font-family: 'Shadows Into Light', cursive;
+}
+header {
+	display: flex;
+	justify-content: flex-end;
 	background: #FF6666;
+	width: 100%;
+	top: 0;
+	font-family: 'Love Ya Like A Sister', cursive;
+	margin-bottom: 5%;
 }
-nav a{
-	color: #FFF;
+.contenedorBarra{
+	height: 100%;
+	margin: 0;
+	padding: 30px;
+	background-color: #FF6666;
 }
-.img{
-	width: 10%
+a{
+	font-size: 20px;
+	color: whitesmoke;
+	padding: 10px;
+	text-decoration:none;
 }
-.container-img{
-	width: 10vw;
-	height: 10vh;
+a:hover{
+  color: #666633;
 }
-.panda{
+
+
+img{
+	width: 20vw;
+	height: 25vh;
+	position: relative;
+	border: 5px solid gray;
+}
+span{
+	position: absolute;
+	color: whitesmoke;
+	cursor: pointer;
+	padding: 1%;
+	font-size: 1vw;
+}
+.cerrar{
+	margin-bottom: 5%;
+	
+}
+.botones{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #666633;
 	width: 100%;
 	height: 100%;
+}
+button{
+	background-color: #FF6666;
+	text-align: center;
+	margin: 5%;
+	padding: 5px 80px;
+	color:#fff;
+	font-family: 'Indie Flower', cursive;
+}
+.texto{
+	
+	align-items: center;
+	margin-bottom: 5%;
+}
+.lorem{
+	text-align: justify;
+	color: aliceblue;
+  visibility: visible;
+	width: 100%;
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 3vw;
+	margin-top: 10%;
+}
+footer{
+	background-color: #FF6666;
+	text-align: center;
+	width: 100%;
+	padding: 5%;
+	margin-top: 20%;
 }
